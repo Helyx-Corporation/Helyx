@@ -1417,13 +1417,6 @@ Dropdown menu styles
     background-color: transparent;
     color: #4782d3; }
 
-    .navbar .dropdown:hover > .dropdown-menu, .navbar .dropend:hover > .dropdown-menu, .navbar .dropstart:hover > .dropdown-menu {
-      transition: opacity 0.15s, transform 0.25s cubic-bezier(0.25, 0.5, 0.75, 1);
-      transform: none;
-      opacity: 1;
-      visibility: visible;
-    }
-
 @media (min-width: 992px) {
   .dropdown-menu {
     margin-top: 0px;

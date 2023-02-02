@@ -15,39 +15,34 @@
         <div id="preloader">
             <div id="preloader-inner"></div>
         </div><!--/preloader-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent bg-dark nav-sticky">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="html/images/helyx-logo.jpg" height="35" alt=""></a>
+                <a class="navbar-brand" href="index.html">
+                    <img class='logo logo-dark' src="html/images/helyx-logo.jpg" height="35"alt="">
+            <img class='logo logo-light hidden-md-down' src="html/images/LOGO_dark.png" height="35" alt="">
+                 </a>
                 <div  id="navbarNavDropdown" class="navbar-collapse collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="page-about-alt.html">About</a>
                         </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="page-services.html">Services</a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">service1</a>
-                                </li>
-                                <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">service2</a>   
-                                </li>
-                            </ul>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="page-services.html">Services</a>
                         </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Training</a>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Training</a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li class=" dropdown">
                                     <a tabindex="-1" href="page-course1.html" class="dropdown-item">Course1</a>
                                 </li>
                                 <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">Course2</a>   
+                                    <a tabindex="-1" href="page-course2.html" class="dropdown-item">Course2</a>   
                                 </li>
                             </ul>
                         </li>
@@ -485,116 +480,120 @@
             </div> <!-- /Carousel -->
         </div>
     </div>
-        <footer class="footer footer-standard pt50 pb10">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb40">
-                        <h3>About Us</h3>
-                         <p>
-                   In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.
-            </p><a href="#" class="btn btn-white-outline btn-sm">Learn More</a>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb40">
-                        <h3>Quick links</h3>
-                        <ul class="list-unstyled footer-list-item">
-                            <li>
-                                <a href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                   News
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                   FAQS
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                   Contact
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Term & conditions
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                    Privacy & policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb40">
-                        <h3>Latest News</h3>
-                       <ul class="list-unstyled latest-news">
-                            <li class="media">
-                               <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img1.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">Beautiful Sofa lamp at low price</a></h5>
-                                    April 05, 2017
-                                </div>
-                            </li>
-                            <li class="media my-3">
-                                <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img2.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">Lorem ipsum dolor sit amet</a></h5>
-                                   Jan 05, 2017
-                                </div>
-                            </li>
-                            <li class="media">
-                                <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img5.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">New awesome features of bootstrap 4</a></h5>
-                                    March 15, 2017
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb40">
-                        <h3>Headquarters</h3>
-                        <img src="html/images/map-img.png" alt="" class="img-fluid">
-                    </div>
+    <footer class="footer footer-standard pt50 pb10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb40">
+                    <a href="index.html"><img height="35" src="html/images/helyx-logo.jpg"></a>
+                    <p></p>
+                     <p>
+               Helyx is dedicated to providing comprehensive cybersecurity services and training to individuals and businesses. Our focus is on helping people understand the basics of cyber security, as well as providing advanced services to keep their digital assets protected.
+        </p><a href="page-about-alt.html" class="btn btn-white-outline btn-sm">Learn More</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb40">
+                    <h3>Quick links</h3>
+                    <ul class="list-unstyled footer-list-item">
+                        <li>
+                            <a href="page-about-alt.html">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-services.html">
+                                Services
+                            </a>
+                         <li>
+                            <a href="page-contact-basic.html">
+                               Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Term & conditions
+                            </a>
+                        </li>
+                         <li>
+                            <a href="#">
+                                Privacy & policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb40">
+                    <h3>Our Tranings</h3>
+                   <ul class="list-unstyled latest-news">
+                        <li class="media">
+                           <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/moon.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                                
+                            </div>
+                        </li>
+                        <li class="media my-3">
+                            <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/nasa.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                                
+                            </div>
+                        </li>
+                        <li class="media">
+                            <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/moon.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb40">
+                    <h3>Contact</h3>
+                <h4>
+                    Monday-Friday: 8am to 6pm<br>
+                    Saturday: 10am to 2pm<br>
+                    Sunday: Closed</h4>
+                <br>
+                <p>
+                <h4 class="text-uppercase">Email</h4>
+                
+                    <a href="#">support@assan.com</a>
+                <br>
+                <h4 class="text-uppercase">Phone</h4>
+                <a href="#">+120 234-449-3949</a></p>
                 </div>
             </div>
-        </footer><!--/footer-->
-        <div class="footer-bottomAlt">
-            <div class="container">
-                <div class="row">
-                      <div class="col-lg-7">
-                        <div class="clearfix">
-                           <a href="#" class="social-icon-sm si-dark si-facebook si-dark-round">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-twitter si-dark-round">
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-g-plus si-dark-round">
-                            <i class="fa fa-google-plus"></i>
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-skype si-dark-round">
-                            <i class="fa fa-skype"></i>
-                            <i class="fa fa-skype"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-linkedin si-dark-round">
-                            <i class="fa fa-linkedin"></i>
-                            <i class="fa fa-linkedin"></i>
-                        </a>  
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <span>&copy; Copyright 2018. All Right Reserved</span>
+        </div>
+    </footer><!--/footer-->
+    <div class="footer-bottomAlt">
+        <div class="container">
+            <div class="row">
+                  <div class="col-lg-7">
+                    <div class="clearfix">
+                       <a href="#" class="social-icon-sm si-dark si-facebook si-dark-round">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon-sm si-dark si-twitter si-dark-round">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon-sm si-dark si-skype si-dark-round">
+                        <i class="fa fa-skype"></i>
+                        <i class="fa fa-skype"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/helyxcorp/" class="social-icon-sm si-dark si-linkedin si-dark-round">
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </a>  
                     </div>
                 </div>
+                <div class="col-lg-5">
+                    <span>&copy; Copyright 2022. All Right Reserved</span>
+                </div>
             </div>
-        </div><!--/footer bottom-->
+        </div>
+    </div><!--/footer bottom-->
         <!--back to top-->
         <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
         <!-- jQuery first, then Tether, then Bootstrap JS. -->

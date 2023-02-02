@@ -1,0 +1,42 @@
+Module 1: Introduction to Cybersecurity 
+Overview of the field 
+Key concepts and terminologies 
+Current state of cybersecurity 
+Laws and regulations 
+Module 2: Network Fundamentals 
+Overview of networking concepts 
+Types of topologies 
+Transmission of data packets 
+TCP/IP protocols 
+HTTP headers 
+Module 3: Operating System Fundamentals 
+Types of Operating Systems 
+Overview of Windows and Linux 
+Causes of vulnerabilities 
+Fixing common vulnerabilities 
+Module 4: Malware 
+Types of malware 
+History of malware 
+Methods to detect malware 
+Best practices to avoid malware infections 
+Module 5: Firewalls 
+Types of firewalls 
+Management of firewalls 
+Overview of firewall bypass techniques 
+Module 6: Encryption 
+Types of encryption 
+Overview of encryption techniques 
+Best practices to secure encryption keys 
+Module 7: Vulnerability Assessment and Penetration Testing 
+Overview of Vulnerability Assessment and Penetration Testing 
+PTES (Pentesting Standards) 
+VAPT process 
+Overview of popular tools used in VAPT 
+Module 8: Real-World Scenarios 
+Demonstration of popular attacks 
+Locating public exploits and modifying them 
+Best practices to stay secure 
+Module 9: Laws and Regulations 
+Overview of cybersecurity laws and regulations 
+Consequences of illegal activities 
+Best practices to stay compliant with laws and regulations 

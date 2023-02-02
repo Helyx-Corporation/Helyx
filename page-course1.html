@@ -15,39 +15,34 @@
         <div id="preloader">
             <div id="preloader-inner"></div>
         </div><!--/preloader-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-transparent bg-dark nav-sticky">
             <div class="container">
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="html/images/helyx-logo.jpg" height="35" alt=""></a>
+                <a class="navbar-brand" href="index.html">
+                    <img class='logo logo-dark' src="html/images/helyx-logo.jpg" height="35"alt="">
+            <img class='logo logo-light hidden-md-down' src="html/images/LOGO_dark.png" height="35" alt="">
+                 </a>
                 <div  id="navbarNavDropdown" class="navbar-collapse collapse">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item ">
-                            <a class="nav-link" href="index.html">Home</a>
+                            <a class="nav-link active" href="index.html">Home</a>
                         </li>
                         <li class="nav-item ">
                             <a class="nav-link" href="page-about-alt.html">About</a>
                         </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="page-services.html">Services</a>
-                            <ul class="dropdown-menu dropdown-menu-right">
-                                <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">service1</a>
-                                </li>
-                                <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">service2</a>   
-                                </li>
-                            </ul>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="page-services.html">Services</a>
                         </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Training</a>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href="#">Training</a>
                             <ul class="dropdown-menu dropdown-menu-right">
                                 <li class=" dropdown">
                                     <a tabindex="-1" href="page-course1.html" class="dropdown-item">Course1</a>
                                 </li>
                                 <li class=" dropdown">
-                                    <a tabindex="-1" href="#" class="dropdown-item">Course2</a>   
+                                    <a tabindex="-1" href="page-course2.html" class="dropdown-item">Course2</a>   
                                 </li>
                             </ul>
                         </li>
@@ -70,7 +65,7 @@
                     <div class="col-lg-6 mb30 wow fadeInUp" data-wow-delay=".300ms">
                         <div class="mb40">
                             <h2 class="mb30">Certified Ethical Hacker</h2>
-                            <p>This course is purely practical, but it does not overlook theory; we’ll start with ethical hacking fundamentals, then break down the many penetration testing fields and install the necessary tools (on Windows, Linux, and Mac OS X), before diving in and hacking right away. You’ll learn by doing, analyzing and manipulating various systems such as networks, servers, clients, websites, and so on. There will never be any dry, dull theoretical lectures.</p>
+                            <p>This course is purely practical, but it does not overlook theory; we`ll start with ethical hacking fundamentals, then break down the many penetration testing fields and install the necessary tools (on Windows, Linux, and Mac OS X), before diving in and hacking right away. You’ll learn by doing, analyzing and manipulating various systems such as networks, servers, clients, websites, and so on. There will never be any dry, dull theoretical lectures.</p>
                         </div>
                        
                     </div>
@@ -120,57 +115,43 @@
 
                             <!-- Nav tabs -->
                             <ul class="nav tabs-schedule nav-tabs list-inline" role="tablist">
-                                <li role="presentation" class="nav-item"><a class="nav-link active" href="#01" aria-controls="01" role="tab" data-toggle="tab">Month 1</a></li>
-                                <li role="presentation" class="nav-item"><a class="nav-link" href="#02" aria-controls="02" role="tab" data-toggle="tab">Month 2 </a></li>
-                                <li role="presentation" class="nav-item"><a class="nav-link" href="#03" aria-controls="03" role="tab" data-toggle="tab">Month 3 </a></li>
+                                <li role="presentation" class="nav-item"><a class="nav-link active" href="#week1" aria-controls="week1" role="tab" data-toggle="tab">Week 1</a></li>
+                                <li role="presentation" class="nav-item"><a class="nav-link" href="#week2" aria-controls="week2" role="tab" data-toggle="tab">Month 2 </a></li>
                             </ul>
 
                             <!-- Tab panes -->
                             <div class="tab-content">
-                                <div role="tabpanel" class="tab-pane fade active show" id="01">
+                                <div role="tabpanel" class="tab-pane fade active show" id="week1">
                                     <div class="row margin-b-30">
                                         <div class="col-sm-3 event-info">
                                             <span>Monday</span>
                                             <span>9:00 AM to 10:45 AM</span>
-                                            <span class="event-hall">Basement R1</span>
+                                            <span class="event-hall">Week 1</span>
                                         </div>
                                         <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Introducing bootstrap4 features</a></h3>
+                                            <h3><a href="#">Module 1: Introduction to Cybersecurity </a></h3>
                                             <div class="row margin-b-20">
                                                 <div class="col-sm-10">
-                                                    <h4>Nikita Miller</h4>
+                                                    <h4>Overview of the field & Key concepts and terminologies </h4>
                                                     <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
+                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born 
                                                     </p>
                                                 </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team2.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>Johathan Doe</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                     <div class="row margin-b-30">
                                         <div class="col-sm-3 event-info">
-                                            <span>Monday</span>
+                                            <span>Wednesday</span>
                                             <span>11:00 AM to 11:45 AM</span>
-                                            <span class="event-hall">Basement R1</span>
+                                            <span class="event-hall">Week 2</span>
                                         </div>
                                         <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Roadmap about bootstrap updates</a></h3>
+                                            <h3><a href="#">Module 2: Network Fundamentals</a></h3>
                                             <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team4.jpg" alt="" class="img-fluid">
-                                                </div>
                                                 <div class="col-sm-10">
-                                                    <h4>Robert</h4>
+                                                    <h4>Overview of networking concepts & Types of topologies</h4>
                                                     <p>
                                                         But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
                                                     </p>
@@ -191,29 +172,8 @@
                                             </p>
                                         </div>
                                     </div>
-                                    <div class="row">
-                                        <div class="col-sm-3 event-info">
-                                            <span>Monday</span>
-                                            <span>2:00 AM to 4:30 AM</span>
-                                            <span class="event-hall">Basement R1</span>
-                                        </div>
-                                        <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Bootstrap with AngularJs</a></h3>
-                                            <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team4.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>Smitha Doe</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
-                                <div role="tabpanel" class="tab-pane fade" id="02">
+                                <div role="tabpanel" class="tab-pane fade" id="week2">
                                     <div class="row margin-b-30">
                                         <div class="col-sm-3 event-info">
                                             <span>Monday</span>
@@ -263,95 +223,6 @@
                                         </div>
                                         <div class="col-sm-9 event-detail">
                                             <h3><a href="#">Bootstrap with AngularJs</a></h3>
-                                            <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team4.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>Smitha Doe</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane fade " id="03">
-                                    <div class="row margin-b-30">
-                                        <div class="col-sm-3 event-info">
-                                            <span>Wednesday</span>
-                                            <span>9:00 AM to 10:45 AM</span>
-                                            <span class="event-hall">Basement R1</span>
-                                        </div>
-                                        <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Lorem ipsum dolor sit amet</a></h3>
-                                            <div class="row margin-b-20">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team5.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>John Miller</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team6.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>Adam Doe</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row margin-b-30">
-                                        <div class="col-sm-3 event-info">
-                                            <span>Wednesday</span>
-                                            <span>11:00 AM to 11:45 AM</span>
-                                            <span class="event-hall">Basement R1</span>
-                                        </div>
-                                        <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Roadmap about bootstrap updates</a></h3>
-                                            <div class="row">
-                                                <div class="col-sm-2">
-                                                    <img src="images/team4.jpg" alt="" class="img-fluid">
-                                                </div>
-                                                <div class="col-sm-10">
-                                                    <h4>Robert</h4>
-                                                    <p>
-                                                        But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row margin-b-30" style="opacity: 0.7;">
-                                        <div class="col-sm-3 event-info">
-                                            <span>Wednesday</span>
-                                            <span>1:00 AM to 2:00 AM</span>
-                                            <span class="event-hall">Fulkari Restaurant</span>
-                                        </div>
-                                        <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">lunch</a></h3>
-                                            <p>
-                                                But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings, the master-builder of human happiness
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-sm-3 event-info">
-                                            <span>Wednesday</span>
-                                            <span>2:00 AM to 4:30 AM</span>
-                                            <span class="event-hall">Basement R1</span>
-                                        </div>
-                                        <div class="col-sm-9 event-detail">
-                                            <h3><a href="#">Closing ceremony</a></h3>
                                             <div class="row">
                                                 <div class="col-sm-2">
                                                     <img src="images/team4.jpg" alt="" class="img-fluid">
@@ -485,116 +356,120 @@
             </div> <!-- /Carousel -->
         </div>
     </div>
-        <footer class="footer footer-standard pt50 pb10">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 mb40">
-                        <h3>About Us</h3>
-                         <p>
-                   In eu libero ligula. Fusce eget metus lorem, ac viverra leo. Nullam convallis, arcu vel pellentesque sodales, nisi est varius diam, ac ultrices sem ante quis sem. Proin ultricies volutpat sapien, nec scelerisque ligula mollis lobortis.
-            </p><a href="#" class="btn btn-white-outline btn-sm">Learn More</a>
-                    </div>
-                    <div class="col-lg-2 col-md-6 mb40">
-                        <h3>Quick links</h3>
-                        <ul class="list-unstyled footer-list-item">
-                            <li>
-                                <a href="#">
-                                    About
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                   News
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                   FAQS
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                   Contact
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    Term & conditions
-                                </a>
-                            </li>
-                             <li>
-                                <a href="#">
-                                    Privacy & policy
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb40">
-                        <h3>Latest News</h3>
-                       <ul class="list-unstyled latest-news">
-                            <li class="media">
-                               <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img1.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">Beautiful Sofa lamp at low price</a></h5>
-                                    April 05, 2017
-                                </div>
-                            </li>
-                            <li class="media my-3">
-                                <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img2.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">Lorem ipsum dolor sit amet</a></h5>
-                                   Jan 05, 2017
-                                </div>
-                            </li>
-                            <li class="media">
-                                <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/img5.jpg" alt="Generic placeholder image"></a>
-                                <div class="media-body">
-                                    <h5 class="mt-0 mb-1"><a href="#">New awesome features of bootstrap 4</a></h5>
-                                    March 15, 2017
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-3 col-md-6 mb40">
-                        <h3>Headquarters</h3>
-                        <img src="html/images/map-img.png" alt="" class="img-fluid">
-                    </div>
+    <footer class="footer footer-standard pt50 pb10">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb40">
+                    <a href="index.html"><img height="35" src="html/images/helyx-logo.jpg"></a>
+                    <p></p>
+                     <p>
+               Helyx is dedicated to providing comprehensive cybersecurity services and training to individuals and businesses. Our focus is on helping people understand the basics of cyber security, as well as providing advanced services to keep their digital assets protected.
+        </p><a href="page-about-alt.html" class="btn btn-white-outline btn-sm">Learn More</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb40">
+                    <h3>Quick links</h3>
+                    <ul class="list-unstyled footer-list-item">
+                        <li>
+                            <a href="page-about-alt.html">
+                                About
+                            </a>
+                        </li>
+                        <li>
+                            <a href="page-services.html">
+                                Services
+                            </a>
+                         <li>
+                            <a href="page-contact-basic.html">
+                               Contact
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                Term & conditions
+                            </a>
+                        </li>
+                         <li>
+                            <a href="#">
+                                Privacy & policy
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb40">
+                    <h3>Our Tranings</h3>
+                   <ul class="list-unstyled latest-news">
+                        <li class="media">
+                           <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/moon.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                                
+                            </div>
+                        </li>
+                        <li class="media my-3">
+                            <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/nasa.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                                
+                            </div>
+                        </li>
+                        <li class="media">
+                            <a href="#"> <img class="d-flex mr-3 img-fluid" width="64" src="html/images/moon.jpg" alt="Generic placeholder image"></a>
+                            <div class="media-body">
+                                <h4 class="mt-0 mb-1"><a href="page-course1.html">hCEH</a></h4>
+                                <h5 class="mt-0 mb-1"><a href="page-course1.html">Helyx Ethical hacking fundamentals</a></h5>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb40">
+                    <h3>Contact</h3>
+                <h4>
+                    Monday-Friday: 8am to 6pm<br>
+                    Saturday: 10am to 2pm<br>
+                    Sunday: Closed</h4>
+                <br>
+                <p>
+                <h4 class="text-uppercase">Email</h4>
+                
+                    <a href="#">support@assan.com</a>
+                <br>
+                <h4 class="text-uppercase">Phone</h4>
+                <a href="#">+120 234-449-3949</a></p>
                 </div>
             </div>
-        </footer><!--/footer-->
-        <div class="footer-bottomAlt">
-            <div class="container">
-                <div class="row">
-                      <div class="col-lg-7">
-                        <div class="clearfix">
-                           <a href="#" class="social-icon-sm si-dark si-facebook si-dark-round">
-                            <i class="fa fa-facebook"></i>
-                            <i class="fa fa-facebook"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-twitter si-dark-round">
-                            <i class="fa fa-twitter"></i>
-                            <i class="fa fa-twitter"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-g-plus si-dark-round">
-                            <i class="fa fa-google-plus"></i>
-                            <i class="fa fa-google-plus"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-skype si-dark-round">
-                            <i class="fa fa-skype"></i>
-                            <i class="fa fa-skype"></i>
-                        </a>
-                        <a href="#" class="social-icon-sm si-dark si-linkedin si-dark-round">
-                            <i class="fa fa-linkedin"></i>
-                            <i class="fa fa-linkedin"></i>
-                        </a>  
-                        </div>
-                    </div>
-                    <div class="col-lg-5">
-                        <span>&copy; Copyright 2018. All Right Reserved</span>
+        </div>
+    </footer><!--/footer-->
+    <div class="footer-bottomAlt">
+        <div class="container">
+            <div class="row">
+                  <div class="col-lg-7">
+                    <div class="clearfix">
+                       <a href="#" class="social-icon-sm si-dark si-facebook si-dark-round">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social-icon-sm si-dark si-twitter si-dark-round">
+                        <i class="fa fa-twitter"></i>
+                        <i class="fa fa-twitter"></i>
+                    </a>
+                    <a href="#" class="social-icon-sm si-dark si-skype si-dark-round">
+                        <i class="fa fa-skype"></i>
+                        <i class="fa fa-skype"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/helyxcorp/" class="social-icon-sm si-dark si-linkedin si-dark-round">
+                        <i class="fa fa-linkedin"></i>
+                        <i class="fa fa-linkedin"></i>
+                    </a>  
                     </div>
                 </div>
+                <div class="col-lg-5">
+                    <span>&copy; Copyright 2022. All Right Reserved</span>
+                </div>
             </div>
-        </div><!--/footer bottom-->
+        </div>
+    </div><!--/footer bottom-->
         <!--back to top-->
         <a href="#" class="back-to-top hidden-xs-down" id="back-to-top"><i class="ti-angle-up"></i></a>
         <!-- jQuery first, then Tether, then Bootstrap JS. -->
